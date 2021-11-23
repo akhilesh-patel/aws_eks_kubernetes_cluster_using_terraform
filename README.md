@@ -1,4 +1,7 @@
-# aws_eks_kubernetes_cluster_using_terraform
-##################################################
-problem----------------
-![Screenshot (758)](https://user-images.githubusercontent.com/64592542/143083153-615b9c3d-2b80-420a-a65d-5010d63990c3.png)
+# EKS Getting Started Guide Configuration
+
+This is the full configuration from https://www.terraform.io/docs/providers/aws/guides/eks-getting-started.html
+
+See that guide for additional information.
+
+NOTE: This full configuration utilizes the [Terraform http provider](https://www.terraform.io/docs/providers/http/index.html) to call out to icanhazip.com to determine your local workstation external IP for easily configuring EC2 Security Group access to the Kubernetes servers. Feel free to replace this as necessary.
